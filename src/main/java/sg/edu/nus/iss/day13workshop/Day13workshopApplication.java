@@ -34,7 +34,7 @@ public class Day13workshopApplication implements ApplicationRunner {
 			dbSv.setDataDir(new File(dataDir));
 
 			if (!dbSv.isDataDirValid()) {
-				System.err.printf("%s ddoes not exist is not a directory or not writable");
+				System.err.printf("%s ddoes not exist is not a directory or not writable" , dataDir);
 				System.exit(-1);
 			}
 			System.out.printf("Using %s as a data directory\n", dataDir);
@@ -44,13 +44,6 @@ public class Day13workshopApplication implements ApplicationRunner {
 		}
 	}
 
-	public boolean save() {
-		return false;
-
-	}
-
-	public void read(String fileId) {
-
-	}
+	
 
 }
