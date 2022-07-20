@@ -26,6 +26,7 @@ public class DatabaseService {
         // so that it refers to the class File dataDir
         this.dataDir = dataDir;
     }
+    
 
     // /Users/<username/data
     public boolean isDataDirValid() {
