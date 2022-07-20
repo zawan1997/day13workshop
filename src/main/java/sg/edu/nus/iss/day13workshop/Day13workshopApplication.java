@@ -39,7 +39,7 @@ public class Day13workshopApplication implements ApplicationRunner {
 			}
 			System.out.printf("Using %s as a data directory\n", dataDir);
 		} else {
-			dbSv.setDataDir(new File("C:\\Users\\coyot\\vttp2022\\SSF\\day13\\data"));
+			dbSv.setDataDir(new File("C:\\data"));
 
 		}
 	}
