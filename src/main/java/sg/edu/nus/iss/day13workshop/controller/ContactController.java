@@ -46,6 +46,7 @@ public class ContactController {
         System.out.printf("> id: %s", c);
 
         model.addAttribute("contact", c);
+        // return c.toString();
         return "showContact";
     }
     
